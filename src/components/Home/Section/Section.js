@@ -68,7 +68,6 @@ const Section = () => {
           onChange={handleChange}
           required
         />
-             {/* Custom Dropdown */}
         <div className='dropdown'>
           <div className='dropdown-header' onClick={toggleDropdown}>
             {formData.course || 'Выберите курс '}
@@ -105,7 +104,7 @@ const Section = () => {
         </div>
         <div className="buttons-container">
             <button className="button active">ФИНАЛА ЛЧ</button>
-            <button className="button">ФИНАЛА ВЕРХНИ</button>
+            <button className="button ser">ФИНАЛА ВЕРХНИ</button>
         </div>
         <div className="info_panel">
                 <div className="center_">

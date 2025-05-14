@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AnimatedBackground from './Animationback';
 import VideoGallery from './VideoGallery';
+import AnimationMedia from './AnimationMedia';
 // import './Courses.scss';
 
 export default function Content() {
@@ -43,10 +44,12 @@ export default function Content() {
   return (
     <div className="courses-container">
         <AnimatedBackground/> 
+        <AnimationMedia/>
         <div className="button_Center">
             <h2 className="section-title">Авторские курсы от JustRobotics</h2>
             <div className="courses_bottom">
                  {isMobile ? (
+                  
                   <Slider {...sliderSettings}>
                     {courses.map((course, index) => (
                       <CourseCard

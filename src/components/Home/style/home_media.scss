@@ -281,4 +281,201 @@ $card-bg: #4a4a4a;
                     }
             }
     }
+    .courses-container{
+        width: 100%;
+        height: auto;
+            #tsparticless{
+                display: none;
+            }
+            #MediaContent{
+                position: absolute !important;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+                z-index: 1;
+                border-radius: 20px;
+                display: block;
+            }
+            .button_Center{
+                width: 100%;
+                height: auto;
+                padding-top: 30px;
+                    h2{
+                        width: 0;
+                        width: 100%;
+                        font-size: 25px;
+                        line-height: 30px;
+                    }
+                    .courses_bottom{
+                        width: 100%;
+                        height: auto;
+                    }
+                    .comment_video{
+                        width: 100%;
+                        height: auto;
+
+                           .video-container{
+                            width: 100%;
+                        } 
+                        .video-gallery{
+                            padding: 0;
+                            margin: 0;
+                            width: 100%;
+                            margin: auto;
+                                h2{
+                                margin: 0;
+                                font-family: $Tektur;
+                                font-size: 30px;
+                                font-weight: 700;
+                                line-height: 32px;
+                                text-align: center!important;
+                                }
+                           }
+                    }
+            }
+    }
+    .container_card{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+            .course-card{
+                width: 100%;
+                height: 304px;
+                background-color: #181818;
+                padding: 15px;
+                border-radius: 5px;
+                    img{
+                        width: 100%;
+                        height: 191px;
+                        border-radius: 15px;
+                    }
+                    h3{
+                        color: #FFFFFF;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 20px;
+                    }
+                    .btn{
+                        width: 200px;
+                        height: 41px;
+                        margin: 0;
+                        background-color: #ffd700;
+                        margin-left: auto;
+                        color: #000;
+                    }
+            }
+    }
+    .form_controller{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+            h2{
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 25px;
+            }
+            .form-container{
+               width: 100%;
+               height: auto;
+               padding: 0;
+                   form{
+                       width: 100%;
+                       height: auto;
+                       display: flex;
+                       flex-wrap: wrap;
+                       flex-direction: column;
+                            input{
+                                width: 100%;
+                                margin-top: 20px;
+                            }
+                             .dropdown{
+                                width: 100%;
+                                margin-top: 20px;
+                             }
+                            button {
+                                width: 100%;
+                                margin-top: 22px ;
+                            }
+
+                   }
+            }
+            .buttons-container{
+                width: 100%;
+                padding: 0;
+                margin-top: 23px;
+                    .button{
+                        width: 0;
+                        margin: 0;
+                        width: 300px;
+                        height: 48px;
+                        font-size: 16px;
+                        font-weight: 7000;
+                            &.active {
+                                background-color: #ffd700; 
+                                color: #000;        
+                                box-shadow: 0 0 20px #FFE000;
+                            }
+                    }
+            }
+            .info_panel{
+                width: 100%;
+                height: auto;
+                margin-top: 34px;
+                padding: 0;
+                    .center_{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        // border: 2px solid red;
+                        gap: 10px;
+                            a{
+                                width: auto;
+                                height: 20px;
+                                display: flex;
+                                align-items: center;
+                                font-size: 10px;
+                                font-weight: 400;
+                                    img{
+                                        width: 20px;
+                                        height: 20px;
+                                        margin-right: 5px;
+                                    }
+                            }
+                    }
+            }
+            .info_location{
+                width: 100%;
+                height: auto;
+                padding: 30px 0;
+            }
+    }
+    .footer_container{
+        width: 100%;
+        height: auto;
+        padding: 15px;
+            .top_content{
+                display: flex;
+                flex-direction: column;
+                    .about_left_part{
+                        width: auto;
+                        display: flex;
+                            .bottomInfoss{
+                                margin-left: 20px;
+                            }
+                    }
+                    .footer_list{
+                        width: auto;
+                        display: flex;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 0;
+                        margin-left: 0;
+                        margin-top: 30px;
+                            ul:nth-child(2){
+                                margin-left: 0;
+                            }
+                    }
+            }
+    }
 }

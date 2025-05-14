@@ -9,7 +9,7 @@
 
     return (
       <Particles
-        id="mediaHeader"
+        id="MediaContent"
         init={particlesInit}
         options={{
           
@@ -23,7 +23,7 @@
             zIndex: 0,
           },
           particles: {
-            number: { value: 50 },
+            number: { value: 100 },
             color: { value: "#F8EB92" },
             shape: { type: "circle" },
             // opacity: { value: 0.10 },

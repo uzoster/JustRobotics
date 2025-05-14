@@ -6,12 +6,14 @@ export default function Footer() {
         <div className="top_content">
             <div className="about_left_part">
             <a href=""><img src="/image/home/footer/logo.png" alt="" /></a>
-            <h2>SLOGAN lLorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                <div className="bottomInfoss">
+                                <h2>SLOGAN lLorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
             <div className="set-info">
                 <a href=""><img src="/image/home/icons/telegram.png" alt="" /></a>
                 <a href=""><img src="/image/home/icons/youtube.png" alt="" /></a>
                 <a href=""><img src="/image/home/icons/instagram.png" alt="" /></a>
             </div>
+                </div>
             </div>
             <div className="footer_list">
             <ul>

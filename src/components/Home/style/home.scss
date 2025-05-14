@@ -428,16 +428,10 @@ $card-bg: #4a4a4a;
                 }
         }
 }
-
-
-
 .courses-container {
     width: 100%;
     height: auto;
-//  padding: 40px 20px;
-//  max-width: 1200px;
     margin: auto;
-    // overflow-x: hidden;
     position: relative;
     background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 40%, #ffaa00 100%);
         #tsparticless {
@@ -448,6 +442,9 @@ $card-bg: #4a4a4a;
             height: 100% !important;
             z-index: 1;
             border-radius: 20px;
+        }
+        #MediaContent{
+          display: none;
         }
         .button_Center{
             width: 100%;
@@ -568,7 +565,7 @@ $card-bg: #4a4a4a;
                             }
                         
                             .slick-dots {
-                              bottom: -40px;
+                              // bottom: -40px;
                               li {
                                 margin: 0 5px;
                                 // margin-top: 80px;
@@ -589,7 +586,7 @@ $card-bg: #4a4a4a;
                       }
                   
                       @media (max-width: 768px) {
-                        padding: 10px;
+                        padding: 33px;
                     
                         h2 {
                           font-size: 20px;
@@ -597,8 +594,8 @@ $card-bg: #4a4a4a;
                     
                         .video-container {
                           .video-card {
-                            height: 220px;
-                        
+                            height: 300px;
+                            // width: 3dvh;
                             .video-placeholder {
                               .play-button {
                                 width: 40px;
@@ -617,16 +614,23 @@ $card-bg: #4a4a4a;
                   
                       @media (max-width: 480px) {
                         .video-container {
+                          margin-top: 30px;
+                          margin-bottom: 30px;
                           .video-card {
-                            height: 180px;
+                            width: 260px;
+                            height: 340px;
+                            margin: auto;
                           }
                         }
                       }
                         }
                 }
         }
-
+        
 }
+
+
+
 
 .section-title {
   text-align: center;
@@ -821,7 +825,7 @@ $card-bg: #4a4a4a;
         font-size: 20px;
         color: #999999;
         position: relative;
-        
+
         .dropdown-header {
           border-radius: 0;
           cursor: pointer;
@@ -981,7 +985,6 @@ $card-bg: #4a4a4a;
     width: 100%;
     height: auto;
     background-color: $glow-color;
-    // display: flex;
     padding: 10px 80px 17px;
     .top_content{
       display: flex;
@@ -1026,7 +1029,6 @@ $card-bg: #4a4a4a;
       }
       .footer_list{
         width: auto;
-        // border: 2px solid red;
         display: flex;
         margin-left: 140px;
           ul{
