@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Робототехника",
+    "image": "image1.png",
+    "description": "Робототехника для детей",
+    "link": "/courses/robotics"
+  },
+  {
+    "title": "Живопись для детей",
+    "image": "image2.png",
+    "description": "Творчество и живопись",
+    "link": "/courses/painting-kids"
+  },
+  {
+    "title": "Живопись для взрослых",
+    "image": "image3.png",
+    "description": "Искусство для взрослых",
+    "link": "/courses/painting-adults"
+  },
+  {
+    "title": "Английский для детей",
+    "image": "image4.png",
+    "description": "Изучаем английский легко",
+    "link": "/courses/english-kids"
+  },
+  {
+    "title": "Английский для детей",
+    "image": "image4.png",
+    "description": "Изучаем английский легко",
+    "link": "/courses/english-kids"
+  }
+]
